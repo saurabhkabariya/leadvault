@@ -3,10 +3,8 @@
 ### What I Did
 Full Stack (Frontend + Backend)
 
-- **Frontend:** React + Tailwind,
-  **Live Link:** https://leadvault-alpha.vercel.app/
-- **Backend:** Node.js + Express + MongoDB,
-  **Live Link:** https://leadvault.onrender.com
+- **Frontend:** React + Tailwind  
+- **Backend:** Node.js + Express + MongoDB  
 
 ### Features
 - Lead Capture Form with validation  
