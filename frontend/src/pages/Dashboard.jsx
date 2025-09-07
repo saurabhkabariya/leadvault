@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Users, TrendingUp, Clock, CheckCircle, AlertCircle, XCircle, ArrowRight, Menu } from 'lucide-react';
 import Sidebar from '../components/Sidebar';
 import { leadAPI } from '../utils/api';
-import StatusBadge from '../components/Statusbadge';
+import StatusBadge from '../components/StatusBadge.jsx';
 
 const Dashboard = () => {
   const [sidebarOpen, setSidebarOpen] = useState(true);
