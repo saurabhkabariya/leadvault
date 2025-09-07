@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 // CORS configuration
 app.use(cors({
-  origin: ["http://localhost:3000", "http://127.0.0.1:3000", process.env.frontend_url],
+  origin: ["http://localhost:3000", "http://127.0.0.1:3000", process.env.FRONTEND_URL],
   credentials: true,
   methods: ["GET", "POST"],
   allowedHeaders: ["Content-Type", "Authorization"]
