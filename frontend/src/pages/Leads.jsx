@@ -3,7 +3,7 @@ import { Search, Filter, Plus, ArrowUpDown, ChevronDown, X, Menu } from 'lucide-
 import Sidebar from '../components/Sidebar';
 import AddLeadModal from '../components/AddLeadModal';
 import { leadAPI } from '../utils/api';
-import StatusBadge from '../components/Statusbadge';
+import StatusBadge from '../components/StatusBadge.jsx';
 
 const Leads = () => {
   const [sidebarOpen, setSidebarOpen] = useState(true);
